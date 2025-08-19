@@ -7,27 +7,28 @@
 
         <ContentPage.Content>
         <syncfusion:SfAccordion >
-            <syncfusion:SfAccordion.Items>
+
+
                 <syncfusion:AccordionItem>
                     <syncfusion:AccordionItem.Header>
-                        <Grid  HeightRequest="48">
-                            <Label Text="Daryll Abenasa" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
+                        <Grid HeightRequest="48">
+                            <Label Text="Maria Rodriguez" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
                     </syncfusion:AccordionItem.Header>
                     <syncfusion:AccordionItem.Content>
-                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
                             <Grid Margin="16,6,0,0">
                                 <Grid.Resources>
                                     <Style TargetType="Label">
                                         <Setter Property="FontFamily" Value="Roboto-Regular"/>
                                     </Style>
                                 </Grid.Resources>
-                                <Grid.RowDefinitions >
+                                <Grid.RowDefinitions>
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="25"/>
-                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
                                     <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
@@ -35,378 +36,458 @@
                                     <ColumnDefinition Width="100"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <Border Grid.RowSpan="4"
-                                        Grid.Row="0"
-                                        Grid.Column="0"
-                                        Padding="0"
-                                        Margin="0,0,0,7">
-                                    <Image  Source="emp_01.png" />
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/women/1.jpg" />
                                 </Border>
                                 <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                                <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                                <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                                <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                                <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                                <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                                <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                                <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                                            FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                                Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                                </Label>
+                                <Label Text="Chief Technology Officer" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Tech Solutions Co." Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="05/22/1985" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="San Francisco" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Maria Rodriguez, CTO of Tech Solutions Co., is a visionary leader in software development. She has been instrumental in the company's growth and innovation."/>
                                 <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                                   FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                                   VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                    <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="(415) 123-4567" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
                                 </StackLayout>
                             </Grid>
                         </Grid>
                     </syncfusion:AccordionItem.Content>
                 </syncfusion:AccordionItem>
-            </syncfusion:SfAccordion.Items>
 
-            <syncfusion:AccordionItem>
-                <syncfusion:AccordionItem.Header>
-                    <Grid  HeightRequest="48">
-                        <Label Text="Daryll Abenasa" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
-                    </Grid>
-                </syncfusion:AccordionItem.Header>
-                <syncfusion:AccordionItem.Content>
-                    <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
-                        <Grid Margin="16,6,0,0">
-                            <Grid.Resources>
-                                <Style TargetType="Label">
-                                    <Setter Property="FontFamily" Value="Roboto-Regular"/>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.RowDefinitions >
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Border Grid.RowSpan="4"
-                         Grid.Row="0"
-                         Grid.Column="0"
-                         Padding="0"
-                         Margin="0,0,0,7">
-                                <Image  Source="C:\Users\ACT-STUDENT\Desktop\abenasa\download (1).jfif" />
-                            </Border>
-                            <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                            <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                            <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                            <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                            <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                            <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                             FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                 Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                            </Label>
-                            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                    FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                    VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
-                            </StackLayout>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="John Smith" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
-                    </Grid>
-                </syncfusion:AccordionItem.Content>
-            </syncfusion:AccordionItem>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/men/2.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Senior Architect" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Global Builders" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="11/08/1978" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="London" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="John Smith is a highly respected Senior Architect at Global Builders. His work on large-scale infrastructure projects has earned him numerous accolades."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="(020) 7946-0958" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
 
-            <syncfusion:AccordionItem>
-                <syncfusion:AccordionItem.Header>
-                    <Grid  HeightRequest="48">
-                        <Label Text="Raymund Sismundo" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
-                    </Grid>
-                </syncfusion:AccordionItem.Header>
-                <syncfusion:AccordionItem.Content>
-                    <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
-                        <Grid Margin="16,6,0,0">
-                            <Grid.Resources>
-                                <Style TargetType="Label">
-                                    <Setter Property="FontFamily" Value="Roboto-Regular"/>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.RowDefinitions >
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Border Grid.RowSpan="4"
-                          Grid.Row="0"
-                          Grid.Column="0"
-                          Padding="0"
-                          Margin="0,0,0,7">
-                                <Image  Source="C:\Users\ACT-STUDENT\Desktop\abenasa\download.jfif" />
-                            </Border>
-                            <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                            <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                            <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                            <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                            <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                            <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                              FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                  Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                            </Label>
-                            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                     FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                     VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
-                            </StackLayout>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="Emily White" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
-                    </Grid>
-                </syncfusion:AccordionItem.Content>
-            </syncfusion:AccordionItem>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/women/3.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Marketing Manager" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Creative Minds Agency" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="02/10/1992" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="New York" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Emily White, the dynamic Marketing Manager at Creative Minds Agency, is known for her innovative campaigns and strategic brand development."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="(212) 987-6543" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
 
-            <syncfusion:AccordionItem>
-                <syncfusion:AccordionItem.Header>
-                    <Grid  HeightRequest="48">
-                        <Label Text="REnno marutan" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
-                    </Grid>
-                </syncfusion:AccordionItem.Header>
-                <syncfusion:AccordionItem.Content>
-                    <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
-                        <Grid Margin="16,6,0,0">
-                            <Grid.Resources>
-                                <Style TargetType="Label">
-                                    <Setter Property="FontFamily" Value="Roboto-Regular"/>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.RowDefinitions >
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Border Grid.RowSpan="4"
-                          Grid.Row="0"
-                          Grid.Column="0"
-                          Padding="0"
-                          Margin="0,0,0,7">
-                                <Image  Source="C:\Users\ACT-STUDENT\Desktop\abenasa\download (2).jfif" />
-                            </Border>
-                            <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                            <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                            <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                            <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                            <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                            <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                              FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                  Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                            </Label>
-                            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                     FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                     VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
-                            </StackLayout>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="Michael Brown" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
-                    </Grid>
-                </syncfusion:AccordionItem.Content>
-            </syncfusion:AccordionItem>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/men/4.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Financial Analyst" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Capital Investments Inc." Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="08/30/1988" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Chicago" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Michael Brown provides expert financial analysis at Capital Investments Inc. His detailed reports and market insights are highly valued by clients."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="(312) 555-8765" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
 
-            <syncfusion:AccordionItem>
-                <syncfusion:AccordionItem.Header>
-                    <Grid  HeightRequest="48">
-                        <Label Text="Daryll Abenasa" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
-                    </Grid>
-                </syncfusion:AccordionItem.Header>
-                <syncfusion:AccordionItem.Content>
-                    <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
-                        <Grid Margin="16,6,0,0">
-                            <Grid.Resources>
-                                <Style TargetType="Label">
-                                    <Setter Property="FontFamily" Value="Roboto-Regular"/>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.RowDefinitions >
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Border Grid.RowSpan="4"
-                          Grid.Row="0"
-                          Grid.Column="0"
-                          Padding="0"
-                          Margin="0,0,0,7">
-                                <Image  Source="emp_01.png" />
-                            </Border>
-                            <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                            <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                            <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                            <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                            <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                            <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                              FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                  Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                            </Label>
-                            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                     FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                     VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
-                            </StackLayout>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="Jessica Lee" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
-                    </Grid>
-                </syncfusion:AccordionItem.Content>
-            </syncfusion:AccordionItem>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/women/5.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Lead UX/UI Designer" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Design Hub" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="01/15/1995" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Toronto" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Jessica Lee is the Lead UX/UI Designer at Design Hub. Her passion for user-centered design and beautiful interfaces has made her a key asset to the team."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="(647) 222-3344" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
 
-            <syncfusion:AccordionItem>
-                <syncfusion:AccordionItem.Header>
-                    <Grid  HeightRequest="48">
-                        <Label Text="Daryll Abenasa" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
-                    </Grid>
-                </syncfusion:AccordionItem.Header>
-                <syncfusion:AccordionItem.Content>
-                    <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
-                        <Grid Margin="16,6,0,0">
-                            <Grid.Resources>
-                                <Style TargetType="Label">
-                                    <Setter Property="FontFamily" Value="Roboto-Regular"/>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.RowDefinitions >
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Border Grid.RowSpan="4"
-                          Grid.Row="0"
-                          Grid.Column="0"
-                          Padding="0"
-                          Margin="0,0,0,7">
-                                <Image  Source="emp_01.png" />
-                            </Border>
-                            <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                            <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                            <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                            <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                            <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                            <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                              FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                  Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                            </Label>
-                            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                     FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                     VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
-                            </StackLayout>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="David Chen" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
-                    </Grid>
-                </syncfusion:AccordionItem.Content>
-            </syncfusion:AccordionItem>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/men/6.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Operations Manager" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Supply Chain Solutions" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="07/12/1980" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Shanghai" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="David Chen is a skilled Operations Manager at Supply Chain Solutions, known for his expertise in optimizing logistics and streamlining complex workflows."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="+86 21 1234 5678" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
 
-            <syncfusion:AccordionItem>
-                <syncfusion:AccordionItem.Header>
-                    <Grid  HeightRequest="48">
-                        <Label Text="Daryll Abenasa" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular"  FontSize="14" />
-                    </Grid>
-                </syncfusion:AccordionItem.Header>
-                <syncfusion:AccordionItem.Content>
-                    <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4"  >
-                        <Grid Margin="16,6,0,0">
-                            <Grid.Resources>
-                                <Style TargetType="Label">
-                                    <Setter Property="FontFamily" Value="Roboto-Regular"/>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.RowDefinitions >
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="25"/>
-                                <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70 }"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="100"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Border Grid.RowSpan="4"
-                          Grid.Row="0"
-                          Grid.Column="0"
-                          Padding="0"
-                          Margin="0,0,0,7">
-                                <Image  Source="emp_01.png" />
-                            </Border>
-                            <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
-                            <Label Text="Chairman" Grid.Row="0" Grid.Column="2"/>
-                            <Label Text="Organization " Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="ABC Inc." Grid.Row="1" Grid.Column="2"/>
-                            <Label Text="Date Of Birth " Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="09/17/1973" Grid.Row="2" Grid.Column="2"/>
-                            <Label Text="Location " Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
-                            <Label Text="Boston" Grid.Row="3" Grid.Column="2"/>
-                            <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3"  LineBreakMode="WordWrap"  
-                              FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" 
-                                  Text="Robin Rane, Chairman of ABC Inc., leads with dedication and vision.Under his guidance, the company thrives and continues to make a significant impact in the industry.">
-                            </Label>
-                            <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
-                                <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2"
-                                     FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}'
-                                     VerticalOptions="Center" VerticalTextAlignment="Center"/>
-                                <Label Text="(617) 555-1234" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
-                            </StackLayout>
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="Sophia Perez" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
                         </Grid>
-                    </Grid>
-                </syncfusion:AccordionItem.Content>
-            </syncfusion:AccordionItem>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/women/7.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Lead Data Scientist" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Innovate Data Solutions" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="03/25/1987" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Austin" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Sophia Perez is a Lead Data Scientist at Innovate Data Solutions. She specializes in machine learning and predictive modeling to solve complex business problems."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="(512) 888-9999" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
+
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="James Williams" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
+                        </Grid>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/men/8.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="HR Director" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="People First Corp." Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="09/19/1975" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Sydney" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="James Williams, the HR Director at People First Corp., is dedicated to fostering a positive workplace culture and developing talent."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="+61 2 9123 4567" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
+
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="Olivia Taylor" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
+                        </Grid>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/women/9.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Art Director" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Visual Ventures" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="04/04/1989" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Paris" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Olivia Taylor is the creative force behind Visual Ventures. As Art Director, she guides the team in creating stunning and impactful visual campaigns."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="+33 1 40 12 34 56" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
+
+                <syncfusion:AccordionItem>
+                    <syncfusion:AccordionItem.Header>
+                        <Grid HeightRequest="48">
+                            <Label Text="Liam Wilson" Margin="16,14,0,14" CharacterSpacing="0.25" FontFamily="Roboto-Regular" FontSize="14" />
+                        </Grid>
+                    </syncfusion:AccordionItem.Header>
+                    <syncfusion:AccordionItem.Content>
+                        <Grid ColumnSpacing="10" RowSpacing="2" BackgroundColor="#f4f4f4">
+                            <Grid Margin="16,6,0,0">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontFamily" Value="Roboto-Regular"/>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="{OnPlatform Default=90,Android=90,WinUI=70, iOS=100,MacCatalyst=70}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.RowSpan="4" Grid.Row="0" Grid.Column="0" Padding="0" Margin="0,0,0,7">
+                                    <Image Source="https://randomuser.me/api/portraits/men/10.jpg" />
+                                </Border>
+                                <Label Text="Position" Grid.Column="1" Grid.Row="0" Margin="6,0,0,0"/>
+                                <Label Text="Software Engineer" Grid.Row="0" Grid.Column="2"/>
+                                <Label Text="Organization" Grid.Row="1" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Next-Gen Apps" Grid.Row="1" Grid.Column="2"/>
+                                <Label Text="Date Of Birth" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="12/28/1996" Grid.Row="2" Grid.Column="2"/>
+                                <Label Text="Location" Grid.Row="3" Grid.Column="1" Margin="6,0,0,0"/>
+                                <Label Text="Berlin" Grid.Row="3" Grid.Column="2"/>
+                                <Label Padding="0,10,0,10" Grid.Row="4" Grid.ColumnSpan="3" LineBreakMode="WordWrap" FontSize="14" CharacterSpacing="0.25" VerticalTextAlignment="Center" Text="Liam Wilson is a talented Software Engineer at Next-Gen Apps. His expertise in full-stack development and problem-solving is crucial to the team's success."/>
+                                <StackLayout Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,12">
+                                    <Label Text="&#xe700;" FontSize="16" Margin="0,2,2,2" FontFamily='{OnPlatform Android=AccordionFontIcons.ttf#,WinUI=AccordionFontIcons.ttf#AccordionFontIcons,MacCatalyst=AccordionFontIcons,iOS=AccordionFontIcons}' VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                                    <Label Text="+49 30 9876 5432" Grid.Column="1" VerticalOptions="Center" CharacterSpacing="0.25" FontSize="14"/>
+                                </StackLayout>
+                            </Grid>
+                        </Grid>
+                    </syncfusion:AccordionItem.Content>
+                </syncfusion:AccordionItem>
         </syncfusion:SfAccordion>
     </ContentPage.Content>
 </ContentPage>
